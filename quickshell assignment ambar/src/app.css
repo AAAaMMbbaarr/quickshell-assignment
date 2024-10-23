@@ -1,0 +1,28 @@
+/* App.css */
+.kanban-board {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    overflow-x: auto;
+  }
+  
+  .kanban-column {
+    flex: 1;
+    margin: 0 10px;
+    min-width: 200px;
+  }
+  
+  .ticket-list {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .ticket {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
